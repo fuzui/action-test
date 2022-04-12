@@ -1,7 +1,7 @@
 name: d1
 on:
   release:
-    types: [released]
+    types: [published]
 jobs:
   d1:
     runs-on: ubuntu-latest
