@@ -1,9 +1,9 @@
-name: GitHub Actions Demo
+name: d1
 on:
   release:
     types: [released]
 jobs:
-  Explore-GitHub-Actions:
+  d1:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job1 was automatically triggered by a ${{ github.event_name }} event."
